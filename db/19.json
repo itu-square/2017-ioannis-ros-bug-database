@@ -1,0 +1,25 @@
+bugType:  InstallTagsIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 19
+  
+	issue: 10
+  
+	branch: groovy-devel
+
+	hash: 56cf07f62fcdd3927ebff216da281d3b975adefc
+		
+  fix-in: 
+  
+		ur_bringup/CMakeLists.txt 
+		ur_description/CMakeLists.txt
+		ur_driver/CMakeLists.txt 
+		ur_gazebo/CMakeLists.txt 
+		ur_kinematics/CMakeLists.txt 

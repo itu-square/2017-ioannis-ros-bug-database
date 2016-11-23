@@ -1,0 +1,22 @@
+bugType:  InstallTagsIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 48
+  
+	issue: -
+  
+	branch: hydro-devel
+
+	hash: 0369d55ba048d2427ddaa47bc1ac32620449d3cc
+		
+  fix-in: 
+  
+		ur_description/CMakeLists.txt
+		ur_driver/CMakeLists.txt

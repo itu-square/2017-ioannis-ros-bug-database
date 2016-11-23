@@ -1,0 +1,21 @@
+bugType:  Execution
+
+description:
+	
+	cannot subsequently execute joint motion and set io through driver
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 151
+  
+	issue: 149
+  
+	branch: indigo-devel
+
+	hash: a65cd69b4f97559e0a573b8d99aba08c02343262
+
+  fix-in: 
+	
+	 ur_driver/prog 

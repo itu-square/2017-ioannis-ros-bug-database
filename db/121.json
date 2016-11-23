@@ -1,0 +1,28 @@
+bugType:  KinematicsMoveItIssue
+
+description:
+	
+	collision checking ignores collada meshes
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 121
+  
+	issue: 202
+  
+	branch: hydro-devel
+
+	hash: 74d769fa7f023b155e50dd88d4ba77ecfd604e03
+
+  fix-in: 
+	
+	ur_description/meshes/ur5/collision/base.stl
+	ur_description/meshes/ur5/collision/forearm.stl
+	ur_description/meshes/ur5/collision/shoulder.stl
+	ur_description/meshes/ur5/collision/upper_arm.stl
+	ur_description/meshes/ur5/collision/wrist_1.stl
+	ur_description/meshes/ur5/collision/rist_2.stl
+	ur_description/meshes/ur5/collision/wrist_3.stl
+	ur_description/urdf/ur5.urdf.xacro 

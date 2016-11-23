@@ -1,0 +1,25 @@
+bugType:  SchemanticsIssues
+
+description:
+	
+	driver cant detect that robot has reached in goal state
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 37
+  
+	issue: 35
+  
+	branch: groovy-devel
+
+	hash: 
+		5dd99b2fda29af70450362682d0c040b7e905f39
+		396b177e6878e98e5b5f3c6c23c2ca63d815cd8f
+		
+  fix-in: 
+	
+	ur_driver/src/ur_driver/driver.py
+
+

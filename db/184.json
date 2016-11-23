@@ -1,0 +1,23 @@
+bugType:  KinematicsMoveItIssue
+
+description:
+	
+	collision checking for objects attached to links without geometry
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 184
+  
+	issue: 127
+  
+	branch: indigo-devel
+
+	hash: edb027e8564650760c30295f611e78eca8d09d9e
+
+  fix-in: 
+	
+	ur10_moveit_config/config/kinematics.yaml
+	ur5_moveit_config/config/kinematics.yaml
+	ur_kinematics/src/ur_moveit_plugin.cpp 

@@ -1,0 +1,25 @@
+bugType:  DependencyIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 255
+  
+	issue: -
+  
+	branch: indigo-devel
+
+	hash:
+	
+		0dfa7544a78485805352ac75ca0c764c7479d711
+		5818c9552bf9509d8c2496e2ba59ce031c91802d
+		
+  fix-in: 
+  
+		ur_gazebo/package.xml 
+

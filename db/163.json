@@ -1,0 +1,22 @@
+bugType:  HardwareIntegrationIssue
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 170
+  
+	issue: 54
+  
+	branch: indigo-devel
+
+	hash: 62b9c5c74a56e17bf437f0efba003cab843479e0
+
+  fix-in: 
+	
+	ur_driver/CMakeLists.txt 
+

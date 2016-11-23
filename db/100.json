@@ -1,0 +1,22 @@
+bugType:  DependencyIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 100
+  
+	issue: -
+  
+	branch: indgo-devel
+
+	hash: 082dcf1551d84a9a874443adc39627f67272ac4c
+		
+  fix-in: 
+  
+		universal_robot/package.xml
+

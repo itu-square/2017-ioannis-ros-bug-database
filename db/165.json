@@ -1,0 +1,21 @@
+ugType:  ParseError
+
+description:
+	
+	forgotten line into the prog file causes the controller to throw an error
+
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 165
+  
+	issue: -
+  
+	branch: hydro-devel
+
+	hash: b96e107f5a2da61fd13316f5a5f7e32ab2ae30ea
+
+  fix-in: 
+  
+	ur_driver/prog

@@ -1,0 +1,23 @@
+bugType:  SchemanticsIssues
+
+description:
+	
+	copy paste error
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 7
+  
+	issue: -
+  
+	branch: master
+
+	hash: 18ffa89f797266ea519c2047dcb9416f0f79796b
+		
+  fix-in: 
+	
+	 ur_description/urdf/ur10.gazebo.xacro 
+
+

@@ -1,0 +1,26 @@
+bugType:  SchemanticsIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 268
+  
+	issue: 265
+  
+	branch: indigo-devel
+
+	hash: 
+		f212db941b4efa9d15521147bb916a3fa538e9d7
+		89145c420d9b6bbfb4d385d43205708d45cc9449
+		
+  fix-in: 
+	
+	ur_description/urdf/ur10.urdf.xacro
+	ur_description/urdf/ur5.urdf.xacro 
+
+

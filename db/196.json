@@ -1,0 +1,25 @@
+bugType:  PlanningIssue
+
+description:
+	
+	slow planning on Indigo because of a wrong planning algorithm for UR5 and UR10 robots
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 196
+  
+	issue: 193
+  
+	branch: indigo-devel
+
+	hash: 
+	
+		5d0ea453c69afead82063337a7f62a5d69475ae0
+		d9875b55fd9375527a87c43ae6be83eaaad98b9c
+
+  fix-in: 
+  
+	ur5_moveit_config/config/ompl_planning.yaml
+	ur10_moveit_config/config/ompl_planning.yaml

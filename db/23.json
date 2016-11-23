@@ -1,0 +1,26 @@
+bugType:  DeserializationIssue
+
+description:
+	
+	unknown pkt types lead to errors
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 23
+  
+	issue: -
+  
+	branch: groovy-devel
+
+	hash: 
+		041978009cd7e69d36f2bea94227ef3442f74487
+		a147b554279a11643faaad81bf18ccb136a1d7a9
+		84856a2bf972cbc21e0373471a0ae5779c16af36
+
+  fix-in: 
+	
+	ur_driver/src/ur_driver/deserialize.py
+	ur_driver/src/ur_driver/driver.py
+

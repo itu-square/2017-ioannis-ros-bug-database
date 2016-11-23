@@ -1,0 +1,23 @@
+bugType:  DependencyIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 116
+  
+	issue: 36
+  
+	branch: hydro-devel
+
+	hash: 5e2d2648180a4c624fd28ed1dfdfd51a4325e943
+		
+  fix-in: 
+  
+		ur_driver/package.xml
+		ur_driver/src/ur_driver/driver.py 
+

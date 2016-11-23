@@ -1,0 +1,23 @@
+bugType:  DependencyIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 264
+  
+	issue: 269
+  
+	branch: indigo-devel
+
+	hash: 2ed38814045900f6ba6ce4473bd842fe0a90e6c3
+		
+  fix-in: 
+  
+		ur_kinematics/CMakeLists.txt
+		ur_kinematics/package.xml
+

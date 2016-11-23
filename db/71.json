@@ -1,0 +1,27 @@
+bugType:  HardwareIntegrationIssue
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 71
+  
+	issue: -
+  
+	branch: hydro-devel
+
+	hash:
+		50cac390f8378345379c6dad4d828638eac3ab69
+		5ce37e41f965dcfaa87b9fd961a75458cdbbd91b
+		2e96f079f93dffcea32287684a4aee6e8953430f
+
+  fix-in: 
+	
+	ur_driver/src/ur_driver/deserialize.py
+	ur_driver/src/ur_driver/driver.py
+
+

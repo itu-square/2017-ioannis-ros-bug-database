@@ -1,0 +1,24 @@
+bugType:  BuildErrors
+
+description:
+	
+	ur_kinematics build error
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 114
+  
+	issue: 113
+  
+	branch: hydro-devel
+
+	hash: 9d92be5d8ceb3a358f4e0a44b829a447c8d31217
+		
+  fix-in: 
+	
+	ur_kinematics/CMakeLists.txt
+	ur_kinematics/package.xml
+
+

@@ -1,0 +1,22 @@
+bugType:  DependencyIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 42
+  
+	issue: 38
+  
+	branch: hydro-devel
+
+	hash: 1d5a407b3b616e88f572279b8430245052cd1f33
+		
+  fix-in: 
+  
+		ur5_moveit_config/package.xml
+

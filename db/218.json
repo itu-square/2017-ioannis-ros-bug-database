@@ -1,0 +1,22 @@
+bugType:  CompilerError
+
+description:
+	
+	macros should be constants in the src file
+
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 218
+  
+	issue: 217
+  
+	branch: indigo-devel
+
+	hash: 39eb24f3a8ff0e358c210e87f1f3798755444f44
+
+  fix-in: 
+	
+	ur_kinematics/include/ur_kinematics/ur_kin.h
+	ur_kinematics/src/ur_kin.cpp

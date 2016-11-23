@@ -1,0 +1,22 @@
+bugType:  DeserializationIssue
+
+description:
+	
+	controller reads too many bytes from the socket connection
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 115
+  
+	issue: 107
+  
+	branch: hydro-devel
+
+	hash: c2cf1960deb4545147e97f29aad4fc0db1720eb2
+
+  fix-in: 
+	
+	ur_driver/prog 
+

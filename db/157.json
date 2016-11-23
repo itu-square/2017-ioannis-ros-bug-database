@@ -1,0 +1,21 @@
+bugType:  Execution
+
+description:
+	
+	wrong times into the trajectory action on the driver
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 157
+  
+	issue: 149
+  
+	branch: hydro-devel
+
+	hash: bcac4f5f3c4e4eea27b24f37b900f6da24a87e48
+
+  fix-in: 
+	
+	 ur_driver/src/ur_driver/driver.py

@@ -1,0 +1,25 @@
+bugType:  DependencyIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 30
+  
+	issue: 29
+  
+	branch: groovy-devel
+
+	hash: 
+		e6d704a64a8cf6c9ccdfdfe338c05a44b1111241
+		f45e15e98206966d33d29175c039bcc82490d119
+		
+  fix-in: 
+	
+	ur_driver/package.xml 
+
+

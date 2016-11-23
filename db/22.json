@@ -1,0 +1,23 @@
+bugType:  SchemanticsIssues
+
+description:
+	
+	corrupted meshes file
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 22
+  
+	issue: 20
+  
+	branch: groovy-devel
+
+	hash: a0e7afee7f159eb47118d812858e890715922748
+		
+  fix-in: 
+	
+	 ur_description/meshes/ur5/visual/Forearm.dae 
+
+

@@ -1,0 +1,18 @@
+bugType:  
+
+description:
+
+bugFix:
+
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+   
+	pr: 
+  
+	issue:
+	
+	branch: indigo-devel
+
+	hash: 
+
+	fix-in: 

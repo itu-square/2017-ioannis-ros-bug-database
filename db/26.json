@@ -1,0 +1,23 @@
+bugType:  SchemanticsIssues
+
+description:
+	
+	test_move.py was broken because of the argument messages
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 26
+  
+	issue: 24
+  
+	branch: hydro-devel
+
+	hash: 300e395d241d910ddc3cde0a8a6485ce0d1cfa28
+		
+  fix-in: 
+	
+	 ur_driver/src/ur_driver/driver.py 
+
+

@@ -1,0 +1,25 @@
+bugType:  PlanningIssue
+
+description:
+	
+	slow planning on Indigo because of a wrong planning algorithm for UR10 robot
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 136
+  
+	issue: 124
+  
+	branch: hydro-devel
+
+	hash: 
+		
+		1d99ea831dae0259634d9389c1ee42690e9c3d82
+		8af0285a148af65aa301e2ce0e96a2d648ec5fad
+
+  fix-in: 
+	
+	ur_driver/src/ur_driver/driver.py
+	ur_bringup/launch/ur_common.launch

@@ -1,0 +1,19 @@
+bugType:  RobotIntegrationIssue
+
+description:
+	
+	-
+
+bugFix:
+
+  repository: https://github.com/ros-industrial/universal_robot.git
+  
+  pr: -
+  
+  issue: 183
+  
+  branch: indigo-devel
+
+  hash: -
+
+  fix-in: -

@@ -1,0 +1,24 @@
+bugType:  DependencyIssues
+
+description:
+	
+	-
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 236
+  
+	issue: -
+  
+	branch: indigo-devel
+
+	hash: 5c35dc10ac3f323bc6e0d688eb0b41bf7daf944a
+		
+  fix-in: 
+  
+		ur10_moveit_config/package.xml
+		ur5_moveit_config/package.xml 
+		ur3_moveit_config/package.xml 
+

@@ -1,0 +1,22 @@
+bugType:  KinematicsMoveItIssue
+
+description:
+	
+	collision checking for objects attached to links without geometry
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 122
+  
+	issue: 158
+  
+	branch: hydro-devel
+
+	hash: 02aaf1504abbd2c13d0498575e5641a86b3b4cb3
+
+  fix-in: 
+	
+	ur5_moveit_config/config/ur5.srdf
+	ur_description/urdf/ur5.urdf.xacro 

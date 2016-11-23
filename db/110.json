@@ -1,0 +1,23 @@
+bugType:  SchemanticsIssues
+
+description:
+	
+	prog tries to read flag 32 (its 0 - 31, so flag 32 doesn’t exist)
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 110
+  
+	issue: 108
+  
+	branch: hydro-devel
+
+	hash: b2abe31a90a92b5ebd26cd2e39c260d6151d0daa
+		
+  fix-in: 
+	
+	 ur_driver/prog 
+
+
