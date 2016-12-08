@@ -1,0 +1,27 @@
+bugType:  SchemanticsIssue
+
+description:
+	
+	Wobbling  on the UR5
+	
+	The default parameters for the UR5, cause the robot to be wobbly, shaky and not very stable
+	
+bugFix:
+
+	repository: https://github.com/ros-industrial/universal_robot.git
+  
+	pr: 86
+  
+	issue: 85
+  
+	branch: hydro-devel
+
+	hash: afec8cce7e8f83db26240acfcc53b0a28a4f0878
+		
+  fix-in: 
+	
+	ur_description/urdf/ur5.urdf.xacro
+	ur_description/urdf/ur5_joint_limited.urdf.xacro
+	ur_gazebo/controller/arm_controller_ur5.yaml 
+
+
