@@ -1,8 +1,10 @@
-bugType:  SchemanticsIssues
+bugType:  SchemanticsIssue
 
 description:
 	
-	driver cant detect that robot has reached in goal state
+	UR Python driver locks up
+	
+	The python driver cant detect that the robot has reached its goal point and the driver never sends the last point 
 	
 bugFix:
 

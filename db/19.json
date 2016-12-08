@@ -1,8 +1,11 @@
-bugType:  InstallTagsIssues
+bugType:  InstallTagsIssue
 
 description:
 	
-	-
+	Missing install targets
+	
+	Will result the files to be copied to the install space instead of the target project place
+	(all install targets should use catkin DESTINATION variables)
 	
 bugFix:
 

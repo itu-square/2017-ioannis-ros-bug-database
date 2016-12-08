@@ -2,13 +2,17 @@ bugType:  HardwareIntegrationIssue
 
 description:
 	
-	-
+	The ability to perform manual moves via the teach pendant or move the robot by dragging the end-effector
+	was disabled by the ROS driver.
+	
+	The prevent_programming entry on ur_driver, which allows the functions on the teach pendant to be used, wasn't dynamic configurable
+	There were no prevention of sending the programm (prog) while the teach button from the pendant was pressed
 	
 bugFix:
 
 	repository: https://github.com/ros-industrial/universal_robot.git
   
-	pr: 170
+	pr: 163
   
 	issue: 54
   
@@ -19,4 +23,7 @@ bugFix:
   fix-in: 
 	
 	ur_driver/CMakeLists.txt 
+	ur_driver/cfg/URDriver.cfg 
+	ur_driver/package.xml
+	ur_driver/src/ur_driver/driver.py 
 

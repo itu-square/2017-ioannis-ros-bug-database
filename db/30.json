@@ -1,8 +1,10 @@
-bugType:  DependencyIssues
+bugType:  DependencyIssue
 
 description:
 	
-	-
+	The ur_driver: package.xml doesn't list python module dependencies 
+	
+	The package.xml file of ur_driver is  missing the Python module dependencies required for its execution.
 	
 bugFix:
 

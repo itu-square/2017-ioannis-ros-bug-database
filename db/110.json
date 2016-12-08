@@ -1,8 +1,11 @@
-bugType:  SchemanticsIssues
+bugType:  SchemanticsIssue
 
 description:
 	
-	prog tries to read flag 32 (its 0 - 31, so flag 32 doesn’t exist)
+	Running the driver results in continuous printing of Warning: 32 is no a valid flag number
+	
+	The URScript program tries to access flag 32.
+	As flags run from [0, 31] (according to the v1.8 scripting manual), that is an invalid index.
 	
 bugFix:
 

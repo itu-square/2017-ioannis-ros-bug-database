@@ -1,8 +1,8 @@
-bugType:  InstallTagsIssues
+bugType:  InstallTagsIssue
 
 description:
 	
-	-
+	Fix install packages for prog
 	
 bugFix:
 

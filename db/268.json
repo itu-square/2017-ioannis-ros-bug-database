@@ -2,7 +2,7 @@ bugType:  SchemanticsIssues
 
 description:
 	
-	-
+	Elbow joint self-collisions break path planning when the full joint space is used on UR5
 	
 bugFix:
 

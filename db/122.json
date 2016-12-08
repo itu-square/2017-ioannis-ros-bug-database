@@ -1,8 +1,11 @@
-bugType:  KinematicsMoveItIssue
+bugType:  CollisionIssue
 
 description:
 	
-	collision checking for objects attached to links without geometry
+	Collision checking for objects attached to links without geometry for the UR5 robot
+	
+	Links without geometry are left out of the updated vector for a joint group
+	Leading to objects attached to these links will not be part of the collision checking for that group.
 	
 bugFix:
 

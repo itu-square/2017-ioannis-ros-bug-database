@@ -1,8 +1,11 @@
-bugType:  Execution
+bugType:  ScemanticsIssue
 
 description:
 	
-	wrong times into the trajectory action on the driver
+	Robot will jerk upon the interruption of a trajectory from a new trajectory
+	
+	On the driver.py the sample_traj() function it uses the absolute time instead of the offset of the
+	previous trajectory.
 	
 bugFix:
 
@@ -10,7 +13,7 @@ bugFix:
   
 	pr: 157
   
-	issue: 149
+	issue: -
   
 	branch: hydro-devel
 

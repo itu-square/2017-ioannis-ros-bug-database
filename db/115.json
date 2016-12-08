@@ -2,7 +2,9 @@ bugType:  DeserializationIssue
 
 description:
 	
-	controller reads too many bytes from the socket connection
+	Controller reads too many bytes from the socket connection
+	
+	There is a confusion between nr.-of-items vs nr.-of-bytes for the socket_read_binary_integer(..) statement in prog.
 	
 bugFix:
 

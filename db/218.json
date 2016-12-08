@@ -1,9 +1,11 @@
-bugType:  CompilerError
+bugType:  ScemanticsIssue
 
 description:
 	
-	macros should be constants in the src file
-
+	The #define macros in the header file should be constants in the cpp file
+	
+	Compiler errors when the ur_kin.h file was included with boost header files
+	
 bugFix:
 
 	repository: https://github.com/ros-industrial/universal_robot.git

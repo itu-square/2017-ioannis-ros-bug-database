@@ -1,8 +1,10 @@
-bugType:  KinematicsMoveItIssue
+bugType:  CollisionIssue
 
 description:
 	
-	collision checking ignores collada meshes
+	Collision checking ignores collada meshes for the ur5 robot
+	
+	A collision that doesnt exist could be detected by error on the ur5 meshes
 	
 bugFix:
 

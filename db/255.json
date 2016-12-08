@@ -2,7 +2,8 @@ bugType:  DependencyIssues
 
 description:
 	
-	-
+	The included dependency gazebo_ros_pkgs will cause the following build error:
+	"Abandoned <<< ur_gazebo [ Depends on unknown jobs: gazebo_ros_pkgs ]"
 	
 bugFix:
 

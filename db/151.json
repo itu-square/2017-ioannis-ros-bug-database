@@ -1,8 +1,13 @@
-bugType:  Execution
+bugType:  ScemanticsIssue
 
 description:
 	
-	cannot subsequently execute joint motion and set io through driver
+	Cannot subsequently execute joint motion and set io through driver
+	
+    If a set of io commands is sent to the controller after a commanded joint motion, or a joint motion is sent to the controller after a set of io commands, 
+	will trigger the following error : "Type error: resizing lists is not supported!".
+	Because all the variables declared on the controller have a global scope and they cannot have their size changed once they created.
+
 	
 bugFix:
 

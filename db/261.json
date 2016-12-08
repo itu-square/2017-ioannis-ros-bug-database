@@ -2,7 +2,9 @@ bugType:  DependencyIssues
 
 description:
 	
-	-
+	Shouldnt depend on moveit_plugins metapackage
+	
+	Regular packages aren't supposed to depend on metapackages
 	
 bugFix:
 

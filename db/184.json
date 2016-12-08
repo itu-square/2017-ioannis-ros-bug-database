@@ -1,8 +1,11 @@
-bugType:  KinematicsMoveItIssue
+bugType:  MotionPlanningIssue
 
 description:
 	
-	collision checking for objects attached to links without geometry
+	ur_kinematics not working with limited joint range
+	
+	By using the  URKinematicsPlugin with limited joint range (parameter "limited:=true"),
+	motion planning fails consistently and fast. Lines with "State outside bounds" will be logged
 	
 bugFix:
 

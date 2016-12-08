@@ -2,7 +2,7 @@ bugType:  DependencyIssues
 
 description:
 	
-	-
+	Missing dependency of the new moveit_kinematics package to build against the kinetic-devel
 	
 bugFix:
 

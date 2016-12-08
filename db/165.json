@@ -1,9 +1,11 @@
-ugType:  ParseError
+ugType:  ScemanticsIssue
 
 description:
 	
-	forgotten line into the prog file causes the controller to throw an error
-
+	A forgotten line into the prog file causes the controller to throw parse error
+	
+	The user program in the URScript doesnt need to be called in the end
+	
 bugFix:
 
 	repository: https://github.com/ros-industrial/universal_robot.git

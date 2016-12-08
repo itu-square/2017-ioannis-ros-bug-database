@@ -1,8 +1,10 @@
-bugType:  SchemanticsIssues
+bugType:  SchemanticsIssue
 
 description:
 	
-	copy paste error
+	Copy paste error
+	
+	Gazebo xacro file refers to wrong wrist
 	
 bugFix:
 

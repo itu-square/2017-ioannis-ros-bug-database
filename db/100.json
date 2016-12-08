@@ -1,8 +1,8 @@
-bugType:  DependencyIssues
+bugType:  DependencyIssue
 
 description:
 	
-	-
+	Added dependency of the ur_msgs to universal_robot meta-package 
 	
 bugFix:
 

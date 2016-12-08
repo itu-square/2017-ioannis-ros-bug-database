@@ -1,8 +1,8 @@
-bugType:  HardwareIntegrationIssue
+bugType:  FirmwareIntegrationIssue
 
 description:
 	
-	-
+	Python driver wont work with the new firmware
 	
 bugFix:
 
@@ -10,7 +10,7 @@ bugFix:
   
 	pr: 71
   
-	issue: -
+	issue: 54
   
 	branch: hydro-devel
 

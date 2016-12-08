@@ -2,7 +2,10 @@ bugType:  DeserializationIssue
 
 description:
 	
-	unknown pkt types lead to errors
+	Uknown packet types lead to errors and exit
+	
+	The deserialisation routine would raise an exception, which would cause the driver
+	to print an error and exit.
 	
 bugFix:
 

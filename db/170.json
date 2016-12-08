@@ -1,8 +1,12 @@
-bugType:  HardwareIntegrationIssue
+bugType:  ScemanticsIssue
 
 description:
 	
-	-
+	Enable reconfigure and set_param side by side
+	
+	Because of the fix in the pr 163, by trying to change the parameter of the prevent_programming
+	wont have any effect. The parameter will still appear on the ParameterServer (rosparam list)
+	
 	
 bugFix:
 
@@ -10,7 +14,7 @@ bugFix:
   
 	pr: 170
   
-	issue: 54
+	issue: -
   
 	branch: hydro-devel
 

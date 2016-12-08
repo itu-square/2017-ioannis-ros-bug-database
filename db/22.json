@@ -1,8 +1,12 @@
-bugType:  SchemanticsIssues
+bugType:  SchemanticsIssue
 
 description:
 	
-	corrupted meshes file
+	Corrupted meshes file, an invalid character tha makes the file unreadable under the "UTF-8" character encoding
+	
+	The following error could appear
+	XML Parsing Error: not well-formed
+	"Line Number 13511, Column 59: <rigid_body sid="Actor1-RigidBody" name="UR5-1/Size 1 r\uffffr_r01_Simple-1">"
 	
 bugFix:
 

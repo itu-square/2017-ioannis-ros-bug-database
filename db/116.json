@@ -1,8 +1,11 @@
-bugType:  DependencyIssues
+bugType:  DependencyIssue | SchemanticsIssue
 
 description:
 	
-	-
+	Remove BeautifulSoup dependency
+	
+	BeautifulSoup dependency overkills the parsing process of the urdf. Morever its minimal usage can be
+	replaced by another basic parser.
 	
 bugFix:
 

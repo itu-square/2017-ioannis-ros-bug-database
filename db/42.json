@@ -1,8 +1,8 @@
-bugType:  DependencyIssues
+bugType:  DependencyIssue
 
 description:
 	
-	-
+	Missing run_depend of the industrial_robot_simulator on the ur5 moveit cfg
 	
 bugFix:
 

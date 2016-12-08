@@ -2,15 +2,15 @@ bugType:  DependencyIssues
 
 description:
 	
-	-
-	
+	Missing dependency for the moveit_plugins, needed to run UR robots Gazebo simulation 
+	 	
 bugFix:
 
 	repository: https://github.com/ros-industrial/universal_robot.git
   
 	pr: 236
   
-	issue: -
+	issue: 225
   
 	branch: indigo-devel
 

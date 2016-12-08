@@ -1,8 +1,11 @@
-bugType:  SchemanticsIssues
+bugType:  SchemanticsIssue
 
 description:
 	
-	test_move.py was broken because of the argument messages
+	File test_move.py was broken because of the argument messages
+	
+	When we try to run "$ ./test_move.py" roslaunch server replies: 
+	TypeError: Invalid number of arguments, args should be ....
 	
 bugFix:
 

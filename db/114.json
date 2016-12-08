@@ -1,8 +1,17 @@
-bugType:  BuildErrors
+bugType:  DependencyIssue | InstallTagsIssue
 
 description:
 	
 	ur_kinematics build error
+		
+	The following build errors will appear because of missing install tags and missing dependencies:
+	
+	ur_kinematics: error: exported library 'ur5_moveit_plugin' is not installed
+	ur_kinematics: error: exported library 'ur10_moveit_plugin' is not installed
+	ur_kinematics: CMakeLists.txt(49): error: catkin_package() lists 'moveit_core' as system package but it is not
+	ur_kinematics: warning: package 'geometry_msgs' should be listed in catkin_package()
+	ur_kinematics: CMakeLists.txt(67): warning: use of link_directories() is strongly discouraged
+	ur_kinematics: CMakeLists.txt(68): warning: use of link_directories() is strongly discouraged
 	
 bugFix:
 

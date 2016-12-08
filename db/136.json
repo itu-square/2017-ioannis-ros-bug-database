@@ -1,8 +1,11 @@
-bugType:  PlanningIssue
+bugType:  ScemanticsIssue
 
 description:
 	
-	slow planning on Indigo because of a wrong planning algorithm for UR10 robot
+	Undocumented max_velocity parameter causes plan execution to fail
+	
+	If the max_velocity parameter in the driver has a value less than the MoveIt! velocity limits,
+	it would most likely cause most of the trajectories to fail.
 	
 bugFix:
 
