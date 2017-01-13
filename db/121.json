@@ -1,4 +1,4 @@
-bugType:  CollisionIssue
+bugType:  ModelIssue
 
 description:
 	
@@ -12,7 +12,7 @@ bugFix:
   
 	pr: 121
   
-	issue: 202
+	issue: 202 (https://github.com/ros-planning/moveit_core/issues/202)
   
 	branch: hydro-devel
 

@@ -1,8 +1,8 @@
-bugType:  InstallTagsIssue
+bugType:  BuildIssue
 
 description:
 		
-	Missing install tags on the ur_description and ur_driver.
+	Missing install tags on the ur_description and the ur_driver.
 	
 bugFix:
 

@@ -1,4 +1,4 @@
-bugType:  FirmwareIntegrationIssue
+bugType:  DeserializationIssue
 
 description:
 	
@@ -10,7 +10,7 @@ bugFix:
   
 	pr: 71
   
-	issue: 54
+	issue: 16
   
 	branch: hydro-devel
 
